@@ -14,13 +14,13 @@ class TestNameSpace(object):
     def test_create_namespace(self):
         control_list = [1]
         ns = NameSpace()
-        ret, nsid = ns.create_namespace(1000,1000,1)
-        print(ret, nsid)
-
-        ret = ns.attach(nsid, control_list)
+        ret = ns.create_namespace(1000,1000,1)
         print(ret)
 
-        ret = ns.detach(nsid, control_list)
+        ret = ns.attach(control_list)
+        print(ret)
+
+        ret = ns.detach(control_list)
 
 
 

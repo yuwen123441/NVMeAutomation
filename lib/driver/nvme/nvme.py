@@ -94,6 +94,14 @@ class NVMe(object):
     def nvme_ns_detach_ctrls(self, nsid, num_ctrls, pctrlist):
         return self.driver.nvme_ns_detach_ctrls(self.fd, nsid, num_ctrls, pctrlist)
 
+    def nvme_format(self, nsid, lbaf, ses, pi, pil, ms, timeout):
+        return self.driver.nvme_format(self.fd, nsid, lbaf, ses, pi, pil, ms, timeout)
+
+    def nvme_fw_download(self, offset, data_len, pdata):
+        return self.driver.nvme_fw_download(offset, data_len, pdata)
+
+    def nvme_fw_commit(self, slot, action, bpid):
+        return self.driver.nvme_fw_commit(slot, action, bpid)
 
 
 
