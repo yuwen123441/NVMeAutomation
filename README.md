@@ -16,9 +16,8 @@ Basically divided into three layers<br>
  
  ## How to run test case
  Test case framework using nosetests, when you find your test case, run tests like below command:<br>
- * nosetests -s test_smart_health.py<br>
  More information about nosetests, please check with nose official documentation:https://nose.readthedocs.io/en/latest/man.html <br>
- 
+  * nosetests -s test_smart_health.py<br>
  
  ## Library
  Common library:<br>
@@ -48,8 +47,8 @@ Basically divided into three layers<br>
     *  Delete namespace<br>
     *  Attach namespace<br>
     *  Detach namespace<br>
-  4. Firmware Commit and Download
-    * Commit
-    * Download
+  4. Firmware Commit and Download<br>
+    * Commit<br>
+    * Download<br>
     
     
