@@ -14,6 +14,12 @@ Basically divided into three layers<br>
 
  ![Architecture](/images/Architecture.png)
  
+ ## How to run test case
+ Test case framework using nosetests, when you find your test case, run tests like below command:<br>
+ * nosetests -s test_smart_health.py<br>
+ More information about nosetests, please check with nose official documentation:https://nose.readthedocs.io/en/latest/man.html <br>
+ 
+ 
  ## Library
  Common library:<br>
  * Admin:<br>
@@ -37,3 +43,13 @@ Basically divided into three layers<br>
     * Controller identifier list of controllers that exist in the NVM subsystem.<br>
     * Primary Controller Capabilities data structure for the specified primary controller.<br>
     * Secondary Controller list of controllers associated with the primary controller processing the command.<br>
+  3. Namespace<br>
+    *  Create namespace<br>
+    *  Delete namespace<br>
+    *  Attach namespace<br>
+    *  Detach namespace<br>
+  4. Firmware Commit and Download
+    * Commit
+    * Download
+    
+    
