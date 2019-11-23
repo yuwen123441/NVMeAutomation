@@ -39,12 +39,6 @@ class TestSmartHealth(object):
         temp = self.smart_health_information.log_page_data
         assert_in(temp.prctu, percentage_used_range, msg='percentage_used: %s is not in range 1 ~ 99'%temp.prctu)
 
-    def test_error_info_log_entries(self):
-        "test_number_of_error_information_log_entries"
-        temp = self.smart_health_information.log_page_data
-        neile = buf.generate_big_number(temp.neile)
-        assert_true(neile >= 0, msg='number_of_error_information_log_entries failed')
-
     def test_warning_temp_time(self):
         "test_warning_composite_temperature_time"
         temp = self.smart_health_information.log_page_data
