@@ -13,3 +13,27 @@ Basically divided into three layers<br>
 * Test case and test suite, base on library, user develop related test case, verify ssd functionality
 
  ![Architecture](/images/Architecture.png)
+ 
+ ## Library
+ Common library:<br>
+ * Admin:<br>
+ 1. get log page<br>
+    * Error Information<br>
+    * SMART / Health Information<br>
+    * Firmware Slot Information<br>
+    * Changed Namespace List<br>
+    * Commands Supported and Effects<br>
+    * Self-test<br>
+    * Controller Telemetry Host-Initiated<br>
+    * Controller Telemetry Controller-Initiated <br>
+ 2. Identify<br>
+    * Identify Namespace data structure<br>
+    * Identify Controller data structure<br>
+    * Active Namespace ID list<br>
+    * Namespace Identification Descriptor list for the specified NSID<br>
+    * Allocated Namespace ID list.<br>
+    * Identify Namespace data structure for the specified allocated NSID<br>
+    * Controller identifier list of controllers attached to the spcified NSID<br>
+    * Controller identifier list of controllers that exist in the NVM subsystem.<br>
+    * Primary Controller Capabilities data structure for the specified primary controller.<br>
+    * Secondary Controller list of controllers associated with the primary controller processing the command.<br>
