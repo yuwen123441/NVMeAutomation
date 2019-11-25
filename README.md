@@ -49,10 +49,10 @@ Basically divided into three layers<br>
     * Primary Controller Capabilities data structure for the specified primary controller.<br>
     * Secondary Controller list of controllers associated with the primary controller processing the command.<br>
  3. Namespace<br>
-    * *Create namespace<br>
+    * Create namespace<br>
     * Delete namespace<br>
-    *  Attach namespace<br>
-    *  Detach namespace<br>
+    * Attach namespace<br>
+    * Detach namespace<br>
  4. Firmware Commit and Download<br>
     * Commit<br>
     * Download<br>
