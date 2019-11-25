@@ -7,7 +7,6 @@ Some admin test cases have been developed in the framework, users can use them d
 * Provide an open source test platform to make it easier to test NVMe chips. (提供一个开源的测试平台，可以更加容易对NVMe芯片进行测试) 
 * The platform though ioctrl interface, Implement interaction with the NVMe chip, and tester easy to develop test cases.(通过操作系统驱动层的ioctrl接口，实现和NVMe 设备的交互，用户可以轻松开发自己需要的测试用例)
 
-
 ## Environmental requirements
 Support system: Linux<br>
 Develop language: Python<br>
