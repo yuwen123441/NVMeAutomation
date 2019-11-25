@@ -2,6 +2,12 @@
 This is a automation test framework for NVMe SSD. Through this framework we can verify the functionality of the device, include admin and IO.
 Some admin test cases have been developed in the framework, users can use them directly, or they can develop their own test cases in the framework.
 
+## Why develop this platform
+* Current NVMe device testing tools are expensive, usually need to buy hardware and software license(当前NVMe SSD的测试工具都很昂贵，需要购买测试硬件，还要购买软件的license)
+* Provide an open source test platform to make it easier to test NVMe chips. (提供一个开源的测试平台，可以更加容易对NVMe芯片进行测试) 
+* The platform though ioctrl interface, Implement interaction with the NVMe chip, and tester easy to develop test cases.(通过操作系统驱动层的ioctrl接口，实现和NVMe 设备的交互，用户可以轻松开发自己需要的测试用例)
+
+
 ## Environmental requirements
 Support system: Linux<br>
 Develop language: Python<br>
